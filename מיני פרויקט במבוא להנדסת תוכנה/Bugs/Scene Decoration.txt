@@ -1,0 +1,244 @@
+Bugs:   
+1) When camera is positioned as same as other object
+2) Find intersection in sphere with ray when the ray POD is on sphere 
+
+-Fix findIntersections bug - then try mirror inside sphere
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------Right Wall------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        //Triangle3
+        Triangle triangle3 = new Triangle(
+                new Point3D(-50,-80,-200),  //A      /|A
+                new Point3D(-50,-80,-50),   //B     / |
+                new Point3D(80, -80,-50),  //E    E---B
+                new Color(new java.awt.Color(34, 62, 60)));
+        triangle3.setMaterial(new Material(0.2 ,0.2,10, 1 ,0));
+        //Triangle4
+        Triangle triangle4 = new Triangle(
+                new Point3D(-50,-80,-200), //A    F---A
+                new Point3D(80, -80,-200), //F    | /
+                new Point3D(80, -80,-50),  //E   E|/
+                new Color(new java.awt.Color(34, 62, 60)));
+        triangle4.setMaterial(new Material(0.2 ,0.2,10, 1 ,0));
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------Left Wall------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+           //Triangle3
+        Triangle triangle3 = new Triangle(
+                new Point3D(-50,80,-200),  //A      /|A
+                new Point3D(-50,80,-50),   //B     / |
+                new Point3D(80, 80,-50),  //E    E---B
+                new Color(new java.awt.Color(18, 62, 18)));
+        triangle3.setMaterial(new Material(0.2 ,0.2,10));
+        //Triangle4
+        Triangle triangle4 = new Triangle(
+                new Point3D(-50,80,-200), //A    F---A
+                new Point3D(80, 80,-200), //F    | /
+                new Point3D(80, 80,-50),  //E   E|/
+                new Color(new java.awt.Color(18, 62, 18)));
+        triangle4.setMaterial(new Material(0.2 ,0.2,10));
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------Back Wall------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ //Triangle3
+        Triangle triangle3 = new Triangle(
+                new Point3D(-50,80,-200), //A     E|\
+                new Point3D(-50,-80,-200),//D      | \
+                new Point3D(80,80,-200),  //E     A ---D
+                new Color(new java.awt.Color(34, 62, 60)));
+        triangle3.setMaterial(new Material(0.2 ,0.2,10, 1, 0));
+        //Triangle4
+        Triangle triangle4 = new Triangle(
+                new Point3D(80,80,-200), //E     E ___F
+                new Point3D(80,-80,-200), //F      \ |
+                new Point3D(-50,-80,-200),//D       \|D
+                new Color(new java.awt.Color(34, 62, 60)));
+        triangle4.setMaterial(new Material(0.2 ,0.2,10, 1, 0));
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------Front Wall------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        Triangle triangle3 = new Triangle(
+                new Point3D(-50,80,-50), //A     E|\
+                new Point3D(-50,-80,-50),//D      | \
+                new Point3D(80,80,-50),  //E     A ---D
+                new Color(new java.awt.Color(34, 62, 60)));
+        triangle3.setMaterial(new Material(0.2 ,0.2,10, 0, 1));
+        //Triangle4
+        Triangle triangle4 = new Triangle(
+                new Point3D(80,80,-50), //E     E ___F
+                new Point3D(80,-80,-50), //F      \ |
+                new Point3D(-50,-80,-50),//D       \|D
+                new Color(new java.awt.Color(34, 62, 60)));
+        triangle4.setMaterial(new Material(0.2 ,0.2,10, 0, 1));
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------Ceiling------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//Triangle17
+        Triangle triangle17 = new Triangle(
+                new Point3D(80,80,-200), //A     A |\
+                new Point3D(80,80,-50),  //B       | \
+                new Point3D(80,-80,-50), //C     B ---C
+                new Color(new java.awt.Color(36, 42, 62)));
+        triangle17.setMaterial(new Material(1 ,2,30));
+        //Triangle18
+        Triangle triangle18 = new Triangle(
+                new Point3D(80,80,-200), //A    A ___D
+                new Point3D(80,-80,-50), //C      \ |
+                new Point3D(80,-80,-200),//D       \|C
+                new Color(new java.awt.Color(36, 42, 62)));
+        triangle18.setMaterial(new Material(1 ,2,30));
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------Pyramid----------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//Left Triangle
+        Triangle triangle3 = new Triangle(
+                new Point3D(-50,80,-200),
+                new Point3D(-50,80,-50),
+                new Point3D(60,0,-125),
+                new Color(new java.awt.Color(18, 62, 18)));
+        triangle3.setMaterial(new Material(0.8 ,0.8,10));
+        //Front Triangle
+        Triangle triangle4 = new Triangle(
+                new Point3D(-50,80,-50),
+                new Point3D(-50,-80,-50),
+                new Point3D(60,0,-125),
+                new Color(new java.awt.Color(36, 42, 62)));
+        triangle4.setMaterial(new Material(0.8 ,0.8,10, 0, 1));
+        //Back Triangle
+        Triangle triangle5 = new Triangle(
+                new Point3D(-50,80,-200),
+                new Point3D(-50,-80,-200),
+                new Point3D(60,0,-125),
+                new Color(new java.awt.Color(18, 62, 18)));
+        triangle5.setMaterial(new Material(0.8 ,0.8,10));
+        //Right Triangle
+        Triangle triangle6 = new Triangle(
+                new Point3D(-50,-80,-50),
+                new Point3D(-50,-80,-200),
+                new Point3D(60,0,-125),
+                new Color(new java.awt.Color(18, 62, 18)));
+        triangle6.setMaterial(new Material(0.8 ,0.8,10));
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------Scene 5-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------
+package unittests;
+
+import elements.*;
+import org.junit.Test;
+import geometries.*;
+import primitives.*;
+import renderer.ImageWriter;
+import renderer.Render;
+import scene.Scene;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Scene5Test {
+    @Test
+    public void basicRendering() {
+        //Scene
+        Scene scene = new Scene("Test scene");
+        scene.setCamera(new Camera(new Point3D(30, 0, 40), new Vector(0, 1, 0), new Vector(-15, 0, -150)));
+        scene.setDistance(320);
+        scene.setBackground(new Color(0, 0, 0));
+        scene.setAmbientLight(new AmbientLight());
+        Geometries geometries = new Geometries();
+        scene.setGeomtries(geometries);
+
+        //Sphere1
+        Sphere sphere1 = new Sphere(
+                new Point3D(0, 0, -150), 100,
+                new Color(new java.awt.Color(23, 57, 12)));
+        sphere1.setMaterial(new Material(0.8, 0, 10, 0, 0.6));
+
+
+        //region Right Surface
+        //Front side
+        Triangle triangle2 = new Triangle(
+                new Point3D(300,-300,-300),  //E    E ___H
+                new Point3D(300,-300,-30),   //H      \ |
+                new Point3D(-300,300,-30),   //G       \|G
+                new Color(new java.awt.Color(42, 41, 70)));
+        triangle2.setMaterial(new Material(1,0.8,10));
+        //Back side
+        Triangle triangle1 = new Triangle(
+                new Point3D(300,-300,-300),  //E     E |\
+                new Point3D(-300,300,-300),  //F       | \
+                new Point3D(-300,300,-30),   //G     F ---G
+                new Color(new java.awt.Color(42, 41, 70)));
+        triangle1.setMaterial(new Material(1,0.8,10));
+        //endregion
+
+        //region Left Surface
+        //Front side
+        Triangle triangle3 = new Triangle(
+                new Point3D(300,300,-30),    //E     E |\
+                new Point3D(-300,-300,-30),  //F       | \
+                new Point3D(-300,-300,-300), //G     F ---G
+                new Color(new java.awt.Color(42, 41, 70)));
+        triangle3.setMaterial(new Material(1,0.8,10));
+        //Back side
+        Triangle triangle4 = new Triangle(
+                new Point3D(300,300,-30),    //E    E ___H
+                new Point3D(300,300,-300),   //H      \ |
+                new Point3D(-300,-300,-300), //G       \|G
+                new Color(new java.awt.Color(42, 41, 70)));
+        triangle4.setMaterial(new Material(1,0.8,10));
+        //endregion
+
+        //region Light sources
+        //Point Light1
+        PointLight pointLight1 = new PointLight(
+                new Point3D(35, 0, -150),
+                new Color(new java.awt.Color(255, 252, 78)),
+                0.1, 0.01, 0.001);
+
+        //Point Light2
+        PointLight pointLight2 = new PointLight(
+                new Point3D(0, 35, -150),
+                new Color(new java.awt.Color(255, 75, 0)),
+                0.1, 0.01, 0.001);
+
+        //Point Light3
+        PointLight pointLight3 = new PointLight(
+                new Point3D(-35, 0, -150),
+                new Color(new java.awt.Color(70, 37, 255)),
+                0.1, 0.01, 0.001);
+
+        //Point Light4
+        PointLight pointLight4 = new PointLight(
+                new Point3D(0, -35, -150),
+                new Color(new java.awt.Color(255, 32, 252)),
+                0.1, 0.01, 0.001);
+        //endregion
+
+
+        //Add To Scene
+        scene.addGeometry(sphere1);
+
+        scene.addGeometry(triangle1);
+        scene.addGeometry(triangle2);
+        scene.addGeometry(triangle3);
+        scene.addGeometry(triangle4);
+
+        scene.getLights().add(pointLight1);
+        scene.getLights().add(pointLight2);
+        scene.getLights().add(pointLight3);
+        scene.getLights().add(pointLight4);
+
+
+        //Render Image
+        ImageWriter imageWriter = new ImageWriter("Scene5", 501, 501, 500, 500);
+        Render render = new Render(imageWriter, scene);
+        render.renderImage();
+        render.getImageWriter().writeToimage();
+        System.out.println(imageWriter.PROJECT_PATH);
+
+    }
+}

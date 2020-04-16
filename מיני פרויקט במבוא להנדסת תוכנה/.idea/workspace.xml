@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/renderer/Render.java" line="235" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="15e975c1-7a34-434e-8c7c-8cde58e328cd" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/My_Project$unittests_in_My_Project.ic" NAME="unittests in My Project Coverage Results" MODIFIED="1527522114040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>unittests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/My_Project$RenderTest_basicRendering.ic" NAME="RenderTest.basicRendering Coverage Results" MODIFIED="1526264548516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>unittests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/My_Project$reflectionTest_basicRendering.ic" NAME="reflectionTest.basicRendering Coverage Results" MODIFIED="1528043684118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>unittests.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="My Project" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Render.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/renderer/Render.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-105">
+              <caret line="283" column="64" lean-forward="true" selection-start-line="283" selection-start-column="64" selection-end-line="283" selection-end-column="64" />
+              <folding>
+                <element signature="docComment;method#renderImage#0;class#Render#0" />
+                <element signature="docComment;method#getClosestPoint#0;class#Render#0" />
+                <element signature="e#2731#2750#0" expanded="true" />
+                <element signature="docComment;method#calcColor#0;class#Render#0" />
+                <element signature="docComment;method#calcColor#1;class#Render#0" />
+                <element signature="docComment;method#calcDiffusive#0;class#Render#0" />
+                <element signature="docComment;method#calcSpecular#0;class#Render#0" />
+                <element signature="docComment;method#occluded#0;class#Render#0" />
+                <element signature="docComment;method#generateSpiralPoint#0;class#Render#0" />
+                <element signature="docComment;method#floatingPointFix#0;class#Render#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>-50, 0, 0</find>
+      <find>600</find>
+      <find>0.8 ,2,30</find>
+      <find>66, 66, 66</find>
+      <find>18, 62, 18</find>
+      <find>0.8 ,2,3</find>
+      <find>1,0.8,10</find>
+      <find>36, 42, 62</find>
+      <find>surfacePoint =</find>
+      <find>jpg</find>
+      <find>בשךב</find>
+      <find>q0</find>
+      <find>Q0</find>
+      <find>subtractPoint</find>
+      <find>lightDistance</find>
+      <find>SubtractionPoints</find>
+      <find>multipliedVectorsSklar</find>
+      <find>lightPosition</find>
+      <find>subtractionVectors</find>
+      <find>dotProduct</find>
+      <find>normalizationVectors</find>
+      <find>crossProductVectors</find>
+      <find>dotp</find>
+      <find>dotProductVectors</find>
+      <find>AdditionVectors</find>
+      <find>-20, -50, -80</find>
+      <find>-30,-25, -80</find>
+      <find>108, 0, 2</find>
+      <find>47, 66, 0</find>
+      <find>-10, -30, -90</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>-149`</replace>
+      <replace>new Color(new java.awt.Color(36, 42, 62)));</replace>
+      <replace>new Material(0.7 ,0.8,10, 0, 1));</replace>
+      <replace>0,0,-150</replace>
+      <replace>300</replace>
+      <replace>0.8,0.8,10</replace>
+      <replace>36, 42, 62</replace>
+      <replace>34, 62, 60</replace>
+      <replace>0.8 ,2,3,0,0.4</replace>
+      <replace>42, 41, 70</replace>
+      <replace>return</replace>
+      <replace>point</replace>
+      <replace>multiplyInSkalar</replace>
+      <replace />
+      <replace>lightPosition</replace>
+      <replace>subtractPoint</replace>
+      <replace>multiplySkalar</replace>
+      <replace>spiralNormal</replace>
+      <replace>spiralPosition</replace>
+      <replace>SpiralPosition</replace>
+      <replace>subtractVector</replace>
+      <replace>normalize</replace>
+      <replace>crossProduct</replace>
+      <replace>dotProduct</replace>
+      <replace>addVector</replace>
+      <replace>-10, -50, -80</replace>
+      <replace>47, 66, 0</replace>
+      <replace>37, 96, 101</replace>
+      <replace>108, 0, 2</replace>
+      <replace>-5, -30, -90</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\Owner\Documents\Intellij\My Project\src\elements</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/unittests/LightSourcesTest.java" />
+        <option value="$PROJECT_DIR$/src/elements/DirectionalLight.java" />
+        <option value="$PROJECT_DIR$/src/elements/Light.java" />
+        <option value="$PROJECT_DIR$/src/geometries/Geometries.java" />
+        <option value="$PROJECT_DIR$/src/geometries/Geometry.java" />
+        <option value="$PROJECT_DIR$/src/elements/LightSource.java" />
+        <option value="$PROJECT_DIR$/src/scene/Scene.java" />
+        <option value="$PROJECT_DIR$/src/elements/AmbientLight.java" />
+        <option value="$PROJECT_DIR$/src/unittests/reflectionTest.java" />
+        <option value="$PROJECT_DIR$/src/primitives/Coordinate.java" />
+        <option value="$PROJECT_DIR$/src/renderer/ReflectionTes.java" />
+        <option value="$PROJECT_DIR$/src/unittests/Scene4.java" />
+        <option value="$PROJECT_DIR$/src/primitives/Color.java" />
+        <option value="$PROJECT_DIR$/src/geometries/Triangle.java" />
+        <option value="$PROJECT_DIR$/src/geometries/Cylinder.java" />
+        <option value="$PROJECT_DIR$/src/geometries/Sphere.java" />
+        <option value="$PROJECT_DIR$/src/unittests/DummyTest.java" />
+        <option value="$PROJECT_DIR$/src/unittests/AllLightsTest.java" />
+        <option value="$PROJECT_DIR$/src/unittests/ImageWriterTestCase.java" />
+        <option value="$PROJECT_DIR$/src/primitives/Ray.java" />
+        <option value="$PROJECT_DIR$/src/unittests/NormalTests.java" />
+        <option value="$PROJECT_DIR$/src/primitives/Point3D.java" />
+        <option value="$PROJECT_DIR$/src/primitives/Vector.java" />
+        <option value="$PROJECT_DIR$/src/unittests/Temp.java" />
+        <option value="$PROJECT_DIR$/src/renderer/ImageWriter.java" />
+        <option value="$PROJECT_DIR$/src/primitives/Material.java" />
+        <option value="$PROJECT_DIR$/src/geometries/Plane.java" />
+        <option value="$PROJECT_DIR$/src/primitives/Point2D.java" />
+        <option value="$PROJECT_DIR$/src/elements/SpotLight.java" />
+        <option value="$PROJECT_DIR$/src/elements/PointLight.java" />
+        <option value="$PROJECT_DIR$/src/unittests/SpiralTest.java" />
+        <option value="$PROJECT_DIR$/src/Integration.java" />
+        <option value="$PROJECT_DIR$/src/unittests/IntegealTest.java" />
+        <option value="$PROJECT_DIR$/src/unittests/LightPercentTest.java" />
+        <option value="$PROJECT_DIR$/src/unittests/SceneTmp.java" />
+        <option value="$PROJECT_DIR$/src/unittests/PointLightTest.java" />
+        <option value="$PROJECT_DIR$/src/unittests/SpotLightTest.java" />
+        <option value="$PROJECT_DIR$/src/unittests/Scene4Test.java" />
+        <option value="$PROJECT_DIR$/src/unittests/IntegralTest.java" />
+        <option value="$PROJECT_DIR$/src/unittests/Scene2Test.java" />
+        <option value="$PROJECT_DIR$/src/unittests/Scene3Test.java" />
+        <option value="$PROJECT_DIR$/src/unittests/RefractionTest.java" />
+        <option value="$PROJECT_DIR$/src/unittests/ReflectionTest.java" />
+        <option value="$PROJECT_DIR$/src/unittests/Scene1Test.java" />
+        <option value="$PROJECT_DIR$/src/unittests/Scene5.java" />
+        <option value="$PROJECT_DIR$/src/unittests/Scene5Test.java" />
+        <option value="$PROJECT_DIR$/src/unittests/Planetest.java" />
+        <option value="$PROJECT_DIR$/src/unittests/ShadowTest.java" />
+        <option value="$PROJECT_DIR$/src/elements/Camera.java" />
+        <option value="$PROJECT_DIR$/src/unittests/AllTests.java" />
+        <option value="$PROJECT_DIR$/src/renderer/Render.java" />
+      </list>
+    </option>
+  </component>
+  <component name="InstancesTracker">
+    <option name="classes">
+      <map>
+        <entry key="java.awt.image.BufferedImage" value="CREATION" />
+      </map>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <option name="showIgnored" value="false" />
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1104" />
+    <option name="height" value="1020" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="My Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My Project" type="462c0819:PsiDirectoryNode" />
+              <item name="Bugs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="renderer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="My Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="unittests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="My Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="camer&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/src/elements/Camera.java&#10;render&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/src/renderer/Render.java&#10;ren&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/src/renderer/Render.java&#10;board&#9;PSI&#9;JAVA://java.awt.datatransfer.Clipboard&#10;vectortest&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/src/unittests/VectorTests.java&#10;spir&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/src/unittests/SpiralTest.java&#10;shad&#9;PSI&#9;JAVA://unittests.ShadowTest&#10;scene1&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/Scene1.png&#10;Lighs&#9;PSI&#9;JAVA://elements.LightSource&#10;dir&#9;PSI&#9;JAVA://elements.DirectionalLight&#10;point&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/src/elements/PointLight.java&#10;spot&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/src/elements/SpotLight.java&#10;po&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/src/elements/PointLight.java&#10;scene3&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/Scene3.png&#10;scene4&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/src/unittests/Scene4Test.java&#10;sha&#9;RUN_CONFIGURATION&#9;ShadowTest.test&#10;geo&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/src/geometries/Geometries.java&#10;scene2&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/Scene2.jpg&#10;scene&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/src/unittests/Scene2Test.java&#10;Scene4&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/src/unittests/Scene4Test.java&#10;Render&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/src/renderer/Render.java&#10;reflec&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/ReflectionTest.jpg&#10;refra&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/RefractionTest.jpg&#10;scene2.j&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/src/unittests/Scene2Test.java&#10;shadow&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/ShadowTest.jpg&#10;refr&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/RefractionTest.jpg&#10;rend&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/src/renderer/Render.java&#10;ref&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/ReflectionTest.jpg&#10;alll&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/src/unittests/AllLightsTest.java&#10;coordi&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/src/primitives/Coordinate.java&#10;shado&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/src/unittests/ShadowTest.java&#10;image&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/ ImageWriterTestCase.jpg&#10;imag&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/ ImageWriterTestCase.jpg&#10;i&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/src/renderer/ImageWriter.java&#10;test1&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/test1.jpg&#10;plane&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/src/geometries/Plane.java&#10;pointl&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/src/elements/PointLight.java&#10;lig&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/src/elements/Light.java&#10;light&#9;null&#9;null&#10;amb&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/src/elements/AmbientLight.java&#10;test&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/test1.jpg&#10;spotl&#9;FILE&#9;file://C:/Users/Owner/Documents/Intellij/My Project/src/elements/SpotLight.java&#10;calcC&#9;null&#9;null&#10;normalizationVectors&#9;PSI&#9;JAVA://primitives.Vector#normalizationVectors" />
+    <property name="ToolWindowMaven Projects.ShowToolbar" value="false" />
+    <property name="ToolWindowTerminal.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/projekti.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="unittests" />
+      <recent name="renderer" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Owner\Documents\Intellij\My Project\" />
+      <recent name="C:\Users\Owner\Documents\Intellij\My Project\src" />
+      <recent name="C:\Users\Owner\Documents\Intellij\My Project\src\primitives" />
+      <recent name="C:\Users\Owner\Documents\Intellij\My Project\src\elements" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Scene5Test.basicRendering">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="AllTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="My Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unittests" />
+      <option name="MAIN_CLASS_NAME" value="unittests.AllTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Scene5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="My Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unittests" />
+      <option name="MAIN_CLASS_NAME" value="unittests.Scene5" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Scene5Test.basicRendering" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="My Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unittests" />
+      <option name="MAIN_CLASS_NAME" value="unittests.Scene5Test" />
+      <option name="METHOD_NAME" value="basicRendering" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Scene5.basicRendering" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="My Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unittests" />
+      <option name="MAIN_CLASS_NAME" value="unittests.Scene5" />
+      <option name="METHOD_NAME" value="basicRendering" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ShadowTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="My Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unittests" />
+      <option name="MAIN_CLASS_NAME" value="unittests.ShadowTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="unittests in My Project" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="My Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unittests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unittests" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.unittests in My Project" />
+      <item itemvalue="JUnit.Scene5.basicRendering" />
+      <item itemvalue="JUnit.Scene5" />
+      <item itemvalue="JUnit.Scene5Test.basicRendering" />
+      <item itemvalue="JUnit.ShadowTest.test" />
+      <item itemvalue="JUnit.AllTests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Scene5Test.basicRendering" />
+        <item itemvalue="JUnit.AllTests" />
+        <item itemvalue="JUnit.ShadowTest.test" />
+        <item itemvalue="JUnit.Scene5.basicRendering" />
+        <item itemvalue="JUnit.Scene5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15e975c1-7a34-434e-8c7c-8cde58e328cd" name="Default" comment="" />
+      <created>1524677361092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524677361092</updated>
+      <workItem from="1524677362500" duration="2229000" />
+      <workItem from="1524683523073" duration="1188000" />
+      <workItem from="1524684860024" duration="26073000" />
+      <workItem from="1525100635351" duration="16399000" />
+      <workItem from="1525240756545" duration="15529000" />
+      <workItem from="1525272892280" duration="2315000" />
+      <workItem from="1525365793936" duration="2437000" />
+      <workItem from="1525613597548" duration="10870000" />
+      <workItem from="1525629493244" duration="177000" />
+      <workItem from="1525640980050" duration="5477000" />
+      <workItem from="1525712675290" duration="8740000" />
+      <workItem from="1525738576562" duration="4676000" />
+      <workItem from="1525784772704" duration="5142000" />
+      <workItem from="1525973727445" duration="3739000" />
+      <workItem from="1526228639711" duration="636000" />
+      <workItem from="1526243963956" duration="11163000" />
+      <workItem from="1526260277064" duration="19595000" />
+      <workItem from="1526308851585" duration="8910000" />
+      <workItem from="1526318937604" duration="256000" />
+      <workItem from="1526320100828" duration="7823000" />
+      <workItem from="1526338042185" duration="10114000" />
+      <workItem from="1526383645459" duration="445000" />
+      <workItem from="1526391740171" duration="2707000" />
+      <workItem from="1526403547697" duration="20631000" />
+      <workItem from="1526442911897" duration="3489000" />
+      <workItem from="1526484659175" duration="12952000" />
+      <workItem from="1526506520078" duration="230000" />
+      <workItem from="1527367602779" duration="12122000" />
+      <workItem from="1527522656708" duration="30859000" />
+      <workItem from="1527599259394" duration="20641000" />
+      <workItem from="1527797231115" duration="9883000" />
+      <workItem from="1528032126152" duration="31275000" />
+      <workItem from="1528072992540" duration="4167000" />
+      <workItem from="1528126011929" duration="36552000" />
+      <workItem from="1528175927272" duration="498000" />
+      <workItem from="1528307922011" duration="621000" />
+      <workItem from="1528378668455" duration="1668000" />
+      <workItem from="1528571034049" duration="2000000" />
+      <workItem from="1528621539022" duration="27360000" />
+      <workItem from="1528686113096" duration="5597000" />
+      <workItem from="1528729170377" duration="11276000" />
+      <workItem from="1528765920257" duration="7708000" />
+      <workItem from="1528823052697" duration="18778000" />
+      <workItem from="1528858825325" duration="1842000" />
+      <workItem from="1528912255576" duration="238000" />
+      <workItem from="1528983875375" duration="24149000" />
+      <workItem from="1529193223287" duration="546000" />
+      <workItem from="1529245126788" duration="40307000" />
+      <workItem from="1529336801576" duration="4747000" />
+      <workItem from="1529361758800" duration="19577000" />
+      <workItem from="1529405732585" duration="5094000" />
+      <workItem from="1529521081034" duration="4721000" />
+      <workItem from="1529590237351" duration="1631000" />
+      <workItem from="1529600163193" duration="3263000" />
+      <workItem from="1529778334330" duration="28061000" />
+      <workItem from="1529811252250" duration="1053000" />
+      <workItem from="1529816765550" duration="2612000" />
+      <workItem from="1529829158370" duration="3728000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Scene5Test_basicRendering - 2018.06.24 at 06h 40m 05s.xml">
+      <configuration name="Scene5Test.basicRendering" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Scene5Test_basicRendering - 2018.06.24 at 06h 40m 21s.xml">
+      <configuration name="Scene5Test.basicRendering" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Scene5Test_basicRendering - 2018.06.24 at 06h 46m 54s.xml">
+      <configuration name="Scene5Test.basicRendering" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShadowTest_test - 2018.06.24 at 06h 49m 47s.xml">
+      <configuration name="ShadowTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShadowTest_test - 2018.06.24 at 08h 12m 50s.xml">
+      <configuration name="ShadowTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShadowTest_test - 2018.06.24 at 08h 15m 01s.xml">
+      <configuration name="ShadowTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShadowTest_test - 2018.06.24 at 08h 16m 05s.xml">
+      <configuration name="ShadowTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShadowTest_test - 2018.06.24 at 08h 21m 38s.xml">
+      <configuration name="ShadowTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllTests - 2018.06.24 at 08h 40m 18s.xml">
+      <configuration name="AllTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Scene5Test_basicRendering - 2018.06.24 at 11h 42m 23s.xml">
+      <configuration name="Scene5Test.basicRendering" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="566516000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="5" show_stripe_button="false" weight="0.32920355" />
+      <window_info anchor="bottom" auto_hide="true" id="Messages" order="10" weight="0.3539823" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" auto_hide="true" id="Event Log" order="8" show_stripe_button="false" side_tool="true" weight="0.32920355" />
+      <window_info anchor="right" auto_hide="true" id="Maven Projects" internal_type="SLIDING" order="7" show_stripe_button="false" type="SLIDING" weight="0.32955465" />
+      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" auto_hide="true" id="Run" internal_type="SLIDING" order="12" type="SLIDING" weight="0.2460177" />
+      <window_info anchor="bottom" id="Terminal" internal_type="SLIDING" order="7" show_stripe_button="false" type="SLIDING" weight="0.32920355" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49911505" visible="true" weight="0.2209857" />
+      <window_info anchor="right" id="Database" order="6" show_stripe_button="false" />
+      <window_info id="Structure" order="0" show_stripe_button="false" sideWeight="0.50088495" side_tool="true" weight="0.290938" />
+      <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="4" show_stripe_button="false" sideWeight="0.50088495" side_tool="true" weight="0.290938" />
+      <window_info anchor="bottom" x="-11" y="287" width="1258" height="194" id="Debug" order="2" weight="0.4159292" />
+      <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32920355" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.34089068" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32920355" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32920355" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Image Layers" order="1" />
+      <window_info active="true" anchor="bottom" auto_hide="true" id="Run" internal_type="SLIDING" order="12" type="SLIDING" visible="true" weight="0.6088496" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.34089068" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" show_stripe_button="false" sideWeight="0.50088495" side_tool="true" weight="0.290938" />
+      <window_info anchor="bottom" id="Terminal" internal_type="SLIDING" order="7" show_stripe_button="false" type="SLIDING" weight="0.32920355" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" auto_hide="true" id="Event Log" order="8" show_stripe_button="false" side_tool="true" weight="0.32920355" />
+      <window_info anchor="bottom" auto_hide="true" id="Messages" order="10" weight="0.3539823" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49911505" visible="true" weight="0.2209857" />
+      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="right" auto_hide="true" id="Maven Projects" internal_type="SLIDING" order="7" show_stripe_button="false" type="SLIDING" weight="0.32955465" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="right" id="Database" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="5" show_stripe_button="false" weight="0.32920355" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Structure" order="0" show_stripe_button="false" sideWeight="0.50088495" side_tool="true" weight="0.290938" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32920355" />
+      <window_info anchor="bottom" x="-11" y="287" width="1258" height="194" id="Debug" order="2" weight="0.4159292" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>1493</line>
+          <properties />
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="233" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="this" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>t == 80</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>t == 60</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>t == 120</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>t == 79</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>t==79</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>boolean b = (point.getCoordX() == 97.6713966521451) &amp;&amp; (point.getCoordY() == 97.6713966521451 ) &amp;&amp; (point.getCoordZ() == -58.48586625876952);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>refractedLight.getColor().getBlue()==255</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>boolean b = (point.getCoordX() == 97.6713966521451) &amp;&amp; (point.getCoordY() == 97.6713966521451) &amp;&amp; (point.getCoordZ() == -58.48586625876952);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>97.6713966521451 , 97.6713966521451 , -58.48586625876952</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>refractedLight.getColor().getRed()==255</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="watch">
+      <expression>
+        <expression-string>intersectionPoints.keySet()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>intersectionPoints.isEmpty()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>closestPoint.isEmpty()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/unittests/RenderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="61" column="35" lean-forward="true" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unittests/SpotLightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unittests/PointLightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unittests/ReflectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unittests/RefractionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unittests/Scene1Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unittests/Scene2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="56" column="63" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="56" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unittests/Scene3Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unittests/IntegralTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unittests/Scene5.java" />
+    <entry file="file://$PROJECT_DIR$/src/unittests/Scene4Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unittests/Planetest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="47" column="57" lean-forward="true" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/ImageWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/elements/Camera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unittests/ShadowTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="83" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unittests/AllTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scene5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unittests/Scene5Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="114" column="23" lean-forward="true" selection-start-line="114" selection-start-column="23" selection-end-line="114" selection-end-column="23" />
+          <folding>
+            <element signature="e#914#930#0" />
+            <element signature="e#2322#2335#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bugs/Jpg bug.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bugs/Jpg bug.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bugs/Egg Bug (2).jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/Render.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="283" column="64" lean-forward="true" selection-start-line="283" selection-start-column="64" selection-end-line="283" selection-end-column="64" />
+          <folding>
+            <element signature="docComment;method#renderImage#0;class#Render#0" />
+            <element signature="docComment;method#getClosestPoint#0;class#Render#0" />
+            <element signature="e#2731#2750#0" expanded="true" />
+            <element signature="docComment;method#calcColor#0;class#Render#0" />
+            <element signature="docComment;method#calcColor#1;class#Render#0" />
+            <element signature="docComment;method#calcDiffusive#0;class#Render#0" />
+            <element signature="docComment;method#calcSpecular#0;class#Render#0" />
+            <element signature="docComment;method#occluded#0;class#Render#0" />
+            <element signature="docComment;method#generateSpiralPoint#0;class#Render#0" />
+            <element signature="docComment;method#floatingPointFix#0;class#Render#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>My Project</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>projekti</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
